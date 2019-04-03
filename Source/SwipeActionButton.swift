@@ -112,13 +112,13 @@ extension SwipeActionButton {
     func setBorder() {
         let backgroundColor = UIColor.init(red: 236/255, green: 236/255, blue: 236/255, alpha: 0.5)
         let leftBorder = UIView()
-        leftBorder.frame = CGRect(x: 0.0, y: 3.0, width: 1.0, height: 68.0)
+        leftBorder.frame = CGRect(x: 0.0, y: 10.0, width: 1.0, height: 54.0)
         leftBorder.backgroundColor = backgroundColor
         addSubview(leftBorder)
         bringSubviewToFront(leftBorder)
         
         let bottomBorder = UIView()
-        bottomBorder.frame = CGRect(x: 0.0, y: 73.0, width: 100.0, height: 1.0)
+        bottomBorder.frame = CGRect(x: 0.0, y: 74.0, width: 80.0, height: 1.0)
         bottomBorder.backgroundColor = backgroundColor
         addSubview(bottomBorder)
         bringSubviewToFront(bottomBorder)
